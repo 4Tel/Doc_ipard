@@ -1,0 +1,88 @@
+# site_name: 
+# site_author: 
+
+# repo_name: 
+# repo_url: https://github.com/
+
+theme:
+  name: material
+  language: ko
+  # override path
+  custom_dir: overrides
+  # logo: 
+  # favicon: 
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate  
+      primary: blue grey
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+  
+  features:
+    # Navigation settings
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    # search settings
+    - search.suggest
+    - search.highlight
+    # Code Block
+    - content.code.annotate
+    - content.code.copy
+    # etc.
+    - toc.follow
+
+extra:
+  # Comments Setting.
+  # See overrides/main.html for more details
+  comments:
+    enable: true
+    mode: giscus
+    title: "💬 댓글"
+    repo: 
+    repo_id: 
+    category: General
+    category_id: 
+    mapping: pathname
+    strict: 1
+    reactions_enabled: 1
+    emit_metadata: 0
+    input_position: top
+    theme: preferred_color_scheme
+    lang: ko
+    crossorigin: anonymous
+#   analysis:
+#     provider: google
+#     property: 'G-XXXXXXXXXX'
+  
+# plugins
+plugins:
+  - search:
+      lang: ko
+  - minify:
+      minify_html: true
+      minify_css: true
+      minify_js: true
+  - git-revision-date-localized:
+      type: iso_datetime
+  - awesome-pages

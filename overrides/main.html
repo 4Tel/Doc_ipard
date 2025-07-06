@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ super() }}
+
+  <!-- enalbe comments -->
+  {% if config.extra.comments.enable %}
+  <!-- default comments = True -->
+  {% if page.meta.comments != false %}
+  <!-- comments uses giscus -->
+  {% if config.extra.comments.mode == "giscus" %}
+    <h2 id="__comments"> {{ config.extra.comments.title }} </h2>
+    <script 
+      src="https://giscus.app/client.js"
+      data-repo="{{ config.extra.comments.repo }}"
+      data-repo-id="{{ config.extra.comments.repo_id }}"
+      data-category="{{ config.extra.comments.category }}"
+      data-category-id="{{ config.extra.comments.category_id }}"
+      data-mapping="{{ config.extra.comments.mapping }}"
+      data-strict="{{ config.extra.comments.strict | default(1) }}"
+      data-reactions-enabled="{{ config.extra.comments.reactions_enabled | default(1) }}"
+      data-emit-metadata="{{ config.extra.comments.emit_metadata | default(0) }}"
+      data-input-position="{{ config.extra.comments.input_position | default('top') }}"
+      data-theme="{{ config.extra.comments.theme | default('preferred_color_scheme') }}"
+      data-lang="{{ config.extra.comments.lang | default('ko') }}"
+      crossorigin="{{ config.extra.comments.crossorigin | default('anonymous') }}"
+      async>
+    </script>
+  {% endif %}
+  {% endif %}
+  {% endif %}
+{% endblock %}
