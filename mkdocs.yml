@@ -53,6 +53,9 @@ theme:
     # etc.
     - toc.follow
 
+markdown_extensions:
+  - pymdownx.superfences
+
 extra:
   # Comments Setting.
   # See overrides/main.html for more details
