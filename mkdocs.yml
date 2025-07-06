@@ -53,6 +53,28 @@ theme:
     # etc.
     - toc.follow
 
+markdown_extensions:
+  # code block
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  # KaTeX
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  # KaTeX
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  # KaTeX
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+
 extra:
   # Comments Setting.
   # See overrides/main.html for more details
