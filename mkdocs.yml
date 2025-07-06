@@ -1,8 +1,8 @@
-# site_name: 
-# site_author: 
+site_name: ipard
+site_author: 4Tel
 
-# repo_name: 
-# repo_url: https://github.com/
+repo_name: 4Tel/Doc_ipard
+repo_url: https://github.com/4Tel/Doc_ipard
 
 theme:
   name: material
@@ -59,10 +59,10 @@ extra:
     enable: true
     mode: giscus
     title: "💬 댓글"
-    repo: 
-    repo_id: 
+    repo: 4Tel/Doc_ipard
+    repo_id: R_kgDOPHwk7g
     category: General
-    category_id: 
+    category_id: DIC_kwDOPHwk7s4CsjCr
     mapping: pathname
     strict: 1
     reactions_enabled: 1
