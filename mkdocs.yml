@@ -4,6 +4,10 @@ site_author: 4Tel
 repo_name: 4Tel/Doc_ipard
 repo_url: https://github.com/4Tel/Doc_ipard
 
+nav:
+  - Home: index.md
+  
+
 theme:
   name: material
   language: ko
