@@ -8,7 +8,8 @@
 * RT-TDDFT는 양자역학의 시간 전파 연산자(Propagator)를 통해 파동함수를 직접 전파시킨다.
 
 ## 유한차분법
-* Time-Depenedent Kohn-Sham Equation (TDKS)는 편미분 방정식 중 포물선 형태이다.
+* Time-Depenedent Kohn-Sham Equation (TDKS)를 풀기 위해 수치적 방법이 필요하다.
+* TDKS는 편미분 방정식 중 포물선 형태이다.
 * 다른 포물선 편미분 방정식에는 열방정식이 있으며, 열방정식에서 사용되는 방법을 사용할 수 있다.
 * 포물선 편미분 방정식에서는 주로 유한차분법을 사용한다.
 * 유한차분법은 크게 Implicit 방법과 Explicit 방법으로 나뉜다.
