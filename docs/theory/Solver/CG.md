@@ -1,4 +1,4 @@
-# CG method
-* Conjugate Gradient (CG)
+# CG
+* Conjugate Gradient (CG) method
 ## BiCG
 ## CG Squared
