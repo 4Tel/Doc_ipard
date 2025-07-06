@@ -54,12 +54,15 @@ theme:
     - toc.follow
 
 markdown_extensions:
+  - pymdownx.superfences
   # code block
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  # Tabs
+  - pymdownx.tabbed:
+      alternate_style: true
   # KaTeX
   - pymdownx.arithmatex:
       generic: true

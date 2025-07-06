@@ -14,14 +14,3 @@
 ## IPARD
 * DFT 소프트웨어인 Quantum Espresso(QE)를 기반으로 구현되었다.
 * 이 Package는 Real-Time Time-Dependent DFT (RT-TD-DFT) 계산을 수행한다.
-
-## About
-이 문서는 IPARD 프로그램에 대해 다음을 다룬다.  
-
-| Top Bar | Description |
-|:-------:|:-----------:|
-| Theory  | 이론적 기반  |
-| Rules   | 개발 규칙    |
-| Dev     | 개발 관련    |
-| Usage   | 사용 방법    |
-

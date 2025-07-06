@@ -1,6 +1,7 @@
 nav:
     - Home:
         - index.md
+        - about.md
     - theory
     - rules
     - dev
