@@ -50,7 +50,70 @@ theme:
     - content.code.annotate
     - content.code.copy
     # etc.
+    - content.footnote.tooltips
+    - content.tooltips
     - toc.follow
+
+markdown_extensions:
+  # admonition
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  # annotation
+  - attr_list
+  - md_in_html
+  # codeblock
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  # tabs
+  - pymdownx.tabbed:
+      alternate_style: true
+  # table
+  - tables
+  # diagram
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  # footnotes
+  - footnotes
+  # formatting
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  # emoji
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # images
+  - pymdownx.blocks.caption
+  # lists
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  # KaTeX
+  - pymdownx.arithmatex:
+      generic: true
+  # tooltip
+  - abbr
+  - pymdownx.snippets
+
+
+extra_javascript:
+  # KaTeX
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  # KaTeX
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
 
 extra:
   # Comments Setting.
