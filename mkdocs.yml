@@ -79,10 +79,10 @@ extra:
 plugins:
   - search:
       lang: ko
-  - minify:
-      minify_html: true
-      minify_css: true
-      minify_js: true
+  # - minify:
+  #     minify_html: true
+  #     minify_css: true
+  #     minify_js: true
   - git-revision-date-localized:
       type: iso_datetime
   - awesome-pages
