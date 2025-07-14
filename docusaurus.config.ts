@@ -6,9 +6,9 @@ import type { Navbar } from '@docusaurus/theme-common'
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
-const site_url = 'https://docu-rtd-template.readthedocs.io/';
-const repo_url = 'https://github.com/4Tel/docu-rtd-template'
-const repo_name = 'docu-rtd-template'
+const site_url = 'https://ipard.readthedocs.io/';
+const repo_url = 'https://github.com/4Tel/Doc_ipard.git'
+const repo_name = 'ipard'
 
 /** Blog Information. */
 const meta: Config = {
@@ -17,7 +17,7 @@ const meta: Config = {
   baseUrl: '/',
   trailingSlash: false,
   // home
-  title: 'Docu-RTD Template',
+  title: 'ipard',
   //favicon: 'img/favicon.ico',
   // locale  
   i18n: {
