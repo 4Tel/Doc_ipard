@@ -9,7 +9,7 @@ import rehypeKatex from 'rehype-katex';
 const site_url = 'https://ipard.readthedocs.io/';
 const author = '4Tel'
 const repo_from = 'https://github.com/'
-const repo_name = 'ipard'
+const repo_name = 'Doc_ipard'
 const repo_url = repo_from + author +'/'+ repo_name
 
 /** Blog Information. */
