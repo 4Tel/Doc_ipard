@@ -53,7 +53,7 @@ const codeTheme = {
 
 /* Top Navigation bar information */
 const navigation: Navbar = {
-  title: 'Docu-RTD Template',
+  title: 'ipard',
   //logo: {
   //  src: 'img/favicon.ico',
   //},
