@@ -7,8 +7,10 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
 const site_url = 'https://ipard.readthedocs.io/';
-const repo_url = 'https://github.com/4Tel/Doc_ipard.git'
+const author = '4Tel'
+const repo_from = 'https://github.com/'
 const repo_name = 'ipard'
+const repo_url = repo_from + author +'/'+ repo_name
 
 /** Blog Information. */
 const meta: Config = {
@@ -89,12 +91,12 @@ const theme: ThemeConfig = {
   navbar: navigation,
   footer: {
     style: 'dark',
-    copyright: `Copyright © ${new Date().getFullYear()}. Made by 4Tel.`,
+    copyright: `Copyright © ${new Date().getFullYear()}. Made by ${author}.`,
   },
 };
 
 const doc_settings = {
-  editUrl: repo_url + repo_name + '/blob/main/',
+  editUrl: repo_url + '/blob/main/',
   remarkPlugins: [remarkMath],
   rehypePlugins: [[rehypeKatex, { strict: false }]],
   showLastUpdateTime: true,
