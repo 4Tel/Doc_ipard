@@ -10,7 +10,7 @@ const site_url = 'https://ipard.readthedocs.io/';
 const author = '4Tel'
 const repo_from = 'https://github.com/'
 const repo_name = 'Doc_ipard'
-const repo_url = repo_from + author +'/'+ repo_name
+const repo_url = repo_from + author + '/' + repo_name
 
 /** Blog Information. */
 const meta: Config = {
@@ -31,8 +31,11 @@ const meta: Config = {
 }
 
 const codeTheme = {
+  defaultLanguage: 'fortran',
+  additionalLanguages: ['fortran', 'python', 'bash'],
   theme: themes.oneLight,
   darkTheme: themes.oneDark,
+
   magicComments: [
     // Remember to extend the default highlight class name as well!
     {
@@ -62,9 +65,25 @@ const navigation: Navbar = {
   hideOnScroll: true,
   items: [
     {
-      label: "home",
+      label: "About",
       position: "left",
-      to: "/",
+      to: "/about",
+    }, {
+      label: "Theory",
+      position: "left",
+      to: "/theory",
+    }, {
+      label: "Usage",
+      position: "left",
+      to: "/usage",
+    }, {
+      label: "Dev",
+      position: "left",
+      to: "/dev",
+    }, {
+      label: "Rule",
+      position: "left",
+      to: "/rule",
     }, {
       href: repo_url,
       position: 'right',
