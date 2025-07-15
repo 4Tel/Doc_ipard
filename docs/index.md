@@ -1,6 +1,6 @@
 # IPARD
 * **I**ncheon **P**ackage of **A**b-initio **R**eal-time **D**ynamics  
-* [https://github.com/ComputationalCondensed-matterPhysicsLab/ipard](https://github.com/ComputationalCondensed-matterPhysicsLab/ipard)
+* [https://github.com/I-CCPL/ipard](https://github.com/I-CCPL/ipard)
 * 현재 상태: 비공개
 
 ## Ab-initio
