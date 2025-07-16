@@ -1,7 +1,6 @@
 # IPARD
 * **I**ncheon **P**ackage of **A**b-initio **R**eal-time **D**ynamics  
-* [https://github.com/I-CCPL/ipard](https://github.com/I-CCPL/ipard)
-* 현재 상태: 비공개
+* [Github 저장소](https://github.com/I-CCPL/ipard) (현재 상태: 비공개 개발 중)
 
 ## Ab-initio
 * 전산물리에서는 경험적 방법과 이론적 방법이 존재한다.
